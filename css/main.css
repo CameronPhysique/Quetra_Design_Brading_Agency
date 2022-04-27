@@ -58,7 +58,9 @@
  * # base style overrides
  *
  * ------------------------------------------------------------------- */
-html {
+ @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=Poppins:wght@100&family=Roboto:wght@300&family=Rubik+Glitch&family=Space+Mono&display=swap');
+
+ html {
   font-size: 10px;
 }
 
@@ -1418,7 +1420,8 @@ body.menu-is-open {
  * ## display headings
  * ------------------------------------------------------------------- */
 .display-1 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Bebas Neue", cursive;
+  font-style: italic;
   font-weight: 600;
   font-size: 4.6rem;
   line-height: 1.5;
@@ -1441,7 +1444,9 @@ body.menu-is-open {
 }
 
 .item-title {
-  font-size: 2.4rem;
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 0.7rem;
+  font-size: 2.rem;
   line-height: 1.5;
   margin-top: 0;
   margin-bottom: 2.4rem;
