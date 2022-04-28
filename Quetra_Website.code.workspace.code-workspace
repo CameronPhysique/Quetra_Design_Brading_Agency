@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "."
+	},
+	{
+		"path": "../../../digital_marketing_services"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "Sublime10"
+  }
+}
