@@ -1,16 +1,3 @@
-==================================================================================================
-
-DESCRIPTION:
-
-SUBLIME is a Creative HTML5 one-page template designed for creative agencies, studios, digital 
-design and media agencies or other similar business. The template is a dark theme design with 
-features like fullscreen header/hero section, responsive video lightbox, a nice portfolio section 
-and much more. The template is primarily designed for creative agencies but it is versatile enough 
-to be used for other purposes like a landing page for your startup or business website.
-
-==================================================================================================
-
-
 LICENSE:
 
 This free resource is provided by Styleshout.com and is free to use in 
@@ -126,8 +113,4 @@ Javascript Files:
 
 
 -------------------------------------------------------------------------------------------------------
-
-
-Thanks for downloading from Styleshout :)
-
 

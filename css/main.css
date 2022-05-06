@@ -58,8 +58,9 @@
  * # base style overrides
  *
  * ------------------------------------------------------------------- */
- @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:ital,wght@0,500;1,100&family=Lobster&family=Poppins:wght@100&family=Roboto:wght@300&family=Rubik+Glitch&family=Space+Mono&family=Water+Brush&display=swap');
-
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@1,800&family=Bebas+Neue&family=Inknut+Antiqua&family=Kanit:ital,wght@0,500;1,100&family=Lobster&family=Poppins:wght@100&family=Roboto:wght@300&family=Rubik+Glitch&family=Space+Mono&family=Water+Brush&display=swap');
+ 
  html {
   font-size: 10px;
 }
@@ -2170,7 +2171,6 @@ body.menu-is-open {
 .home-content h3 {
   margin-top: 4.2rem;
   font-family: "bebas neue", sans-serif;
-  font-weight: 300;
   font-size: 3.8rem;
   line-height: 1.342;
   letter-spacing: 5px;
