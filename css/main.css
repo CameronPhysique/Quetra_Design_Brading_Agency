@@ -1684,11 +1684,15 @@ body.menu-is-open {
   padding: 0;
   outline: 0;
   border: none;
+  
 }
 
 .header-logo img {
   width: 9rem;
   height: auto;
+  opacity: 0.7;
+  
+  
  
 
 }
@@ -1725,6 +1729,11 @@ body.menu-is-open {
   -ms-transform: translate3d(100%, 0, 0);
   transform: translate3d(100%, 0, 0);
   visibility: hidden;
+}
+
+#nav-logo {
+  opacity: 0.7;
+  margin-bottom: 1rem;
 }
 
 .header-nav a,
@@ -1978,6 +1987,7 @@ body.menu-is-open {
 @media only screen and (max-width:1200px) {
   .header-logo {
     left: 60px;
+    
   }
 
   .header-menu-toggle {
@@ -2091,6 +2101,8 @@ body.menu-is-open {
   background-color: transparent;
   position: relative;
   display: table;
+  background-attachment: fixed;
+  background-size: contain;
 }
 
 .s-home::before {
@@ -2163,7 +2175,7 @@ body.menu-is-open {
   line-height: 1.342;
   letter-spacing: 5px;
   font-style: italic;
-  color: #b8b8b8;
+  color: #fff;
   text-shadow: 1px 1px 1px #27d0b79c;
 }
 
@@ -3428,10 +3440,11 @@ html.no-csstransitions .home-content__main {
   padding-bottom: 21rem;
   text-align: center;
   position: relative;
-  background-image: url("https://lh3.googleusercontent.com/d0KctCk9Pypor9lKJqTvHfe4K4jIxdsk0QkVE-NbjLDC8Sn8IBqacEJ8xl1u0Q9rbysQPm7oEUUQY-MvLs_YW7qLmiSWEnGdEEuVHdDkPHeW7voGYXjleo2FEaXSukIiFAkGZryzLA=w1920-h1080");
+  background-image: url("https://lh3.googleusercontent.com/SV5B894cJyaaQOpSj8pEZKkDvvIWa1RDv4e8lK-AQZup-8ScUbG8nstu1F-zJOvJQK4j2Dr7Y-BqwE42gn_KV53t9o2m-vosfUqaYRiJtoL44JNU3mLkGqR6J0JkCvD2WM0slPS9sQ=w1920-h1080");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .s-testimonials::before {
