@@ -1441,6 +1441,7 @@ body.menu-is-open {
   margin-top: 0;
   margin-bottom: 4.8rem;
   color: #FFFFFF;
+  text-align: center;
 }
 
 .subhead {
@@ -1454,6 +1455,7 @@ body.menu-is-open {
   margin-top: 0;
   margin-bottom: 3rem;
   position: relative;
+  text-align: center;
 }
 
 .item-title {
@@ -1534,6 +1536,7 @@ body.menu-is-open {
 
 .grid-overlay > div {
   left: 50%;
+  margin-top: 0px;
 }
 
 /* ------------------------------------------------------------------- 
@@ -1692,9 +1695,6 @@ body.menu-is-open {
   width: 9rem;
   height: auto;
   opacity: 0.7;
-  
-  
- 
 
 }
 
@@ -1703,6 +1703,41 @@ body.menu-is-open {
   height: auto;
   line-height: 0;
   margin-top: 0px;
+}
+
+
+.quetra-card {
+  display: block;
+  margin: 0rem auto 2.5rem auto;
+  width: 50%;
+}
+
+.quetra-mockup {
+  float: right;
+  width: 350px;
+  height: 270px;
+  margin-right: 2rem;
+}
+
+.money-back {
+  width:100px;
+  height:auto;
+  margin: 0rem 0rem 2rem 0rem;
+}
+
+.pt-img {
+  float: right;
+  margin: 2rem auto 2rem auto;
+
+}
+
+.para-img {
+  float: right;
+  width: 240px;
+  height: 300px;
+  border-radius: 1rem;
+  margin: 4rem 0rem 0rem 2rem;
+  
 }
 
 /* ------------------------------------------------------------------- 
@@ -2173,7 +2208,6 @@ body.menu-is-open {
   font-family: "bebas neue", sans-serif;
   font-size: 3.8rem;
   line-height: 1.342;
-  letter-spacing: 5px;
   font-style: italic;
   color: #fff;
   text-shadow: 1px 1px 1px #27d0b79c;
@@ -2776,7 +2810,7 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 .s-about {
   padding-top: 18rem;
-  padding-bottom: 18rem;
+  padding-bottom: 10rem;
   background-color: #121212;
   position: relative;
 }
@@ -2846,7 +2880,7 @@ html.no-csstransitions .home-content__main {
 @media only screen and (max-width:1000px) {
   .s-about {
     padding-top: 15rem;
-    padding-bottom: 15rem;
+    padding-bottom: 10rem;
   }
 
   .item-process:nth-child(n) {
@@ -2859,7 +2893,7 @@ html.no-csstransitions .home-content__main {
 @media only screen and (max-width:600px) {
   .s-about {
     padding-top: 12rem;
-    padding-bottom: 12rem;
+    padding-bottom: 8rem;
   }
 
   .process h4 {
@@ -2906,8 +2940,8 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 .s-services {
-  padding-top: 18rem;
-  padding-bottom: 18rem;
+  padding-top: 6rem;
+  padding-bottom: 8rem;
   position: relative;
 }
 
@@ -2966,8 +3000,8 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width:1000px) {
   .s-services {
-    padding-top: 15rem;
-    padding-bottom: 15rem;
+    padding-top: 1rem;
+    padding-bottom: 5rem;
   }
 
   .services .item-service:nth-child(2n+1) {
@@ -3011,7 +3045,7 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width:600px) {
   .s-services {
-    padding-top: 12rem;
+    padding-top: 7rem;
   }
 
   .services .item-service:nth-child(n) {
@@ -3036,8 +3070,8 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 .s-works {
-  padding-top: 18rem;
-  padding-bottom: 18rem;
+  padding-top: 6rem;
+  padding-bottom: 8rem;
   position: relative;
 }
 
@@ -3262,8 +3296,8 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 @media only screen and (max-width:1000px) {
   .s-works {
-    padding-top: 15rem;
-    padding-bottom: 15rem;
+    padding-top: 1rem;
+    padding-bottom: 6rem;
   }
 
 }
@@ -3278,7 +3312,7 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width:600px) {
   .s-works {
-    padding-top: 12rem;
+    padding-top: 3rem;
   }
 
   .masonry-wrap {
@@ -3751,7 +3785,7 @@ html.no-csstransitions .home-content__main {
   }
 
   .contact-email a {
-    font-size: 7.6rem;
+    font-size: 5.6rem;
   }
 
 }
@@ -3767,7 +3801,7 @@ html.no-csstransitions .home-content__main {
   }
 
   .contact-email a {
-    font-size: 3rem;
+    font-size: 3.5rem;
   }
 
 }
@@ -3777,9 +3811,7 @@ html.no-csstransitions .home-content__main {
     font-size: 2.8rem;
   }
 
-  .contact-email a {
-    font-size: 6.2rem;
-  }
+  
 
   .contact-social {
     font-size: 4rem;
@@ -3793,7 +3825,7 @@ html.no-csstransitions .home-content__main {
   }
 
   .contact-email a {
-    font-size: 5.5rem;
+    font-size: 3.5rem;
   }
 
   .contact-social {
@@ -3840,7 +3872,7 @@ html.no-csstransitions .home-content__main {
   }
 
   .contact-email a {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
 }
