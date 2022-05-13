@@ -1460,7 +1460,7 @@ body.menu-is-open {
 
 .item-title {
   font-family: "Bebas Neue", cursive;
-  letter-spacing: 3px;
+  letter-spacing: 0.5rem;
   font-size: 2.5rem;
   line-height: 1.5;
   margin-top: 0;
@@ -1720,7 +1720,7 @@ body.menu-is-open {
 }
 
 .money-back {
-  width:100px;
+  width: 50px;
   height:auto;
   margin: 0rem 0rem 2rem 0rem;
 }
@@ -1737,7 +1737,16 @@ body.menu-is-open {
   height: 300px;
   border-radius: 1rem;
   margin: 4rem 0rem 0rem 2rem;
-  
+}
+
+.col-full img {
+  align-self: center;
+  width: 30%;
+  height: auto;
+  border-radius: 1rem;
+  display: block;
+  margin: auto auto;
+  margin-bottom: 4rem;
 }
 
 /* ------------------------------------------------------------------- 
@@ -2854,6 +2863,70 @@ html.no-csstransitions .home-content__main {
   margin-bottom: 3rem;
 }
 
+.price {
+  font-style: italic;
+  color: #d0bf2b;
+  text-shadow: 1px 1px 2px #000;
+  position: relative;
+  text-align: center;
+}
+
+.price-platinum {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 2.1rem;
+  line-height: 1.333;
+  text-transform: uppercase;
+  letter-spacing: .25rem;
+  color: rgb(39, 208, 184);
+  text-shadow: 1px 1px 2px #000;
+  margin-top: 0;
+  margin-bottom: 5rem;
+  position: relative;
+  text-align: center;
+}
+
+#format {
+  float: right;
+}
+
+.price-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  height: auto;
+}
+
+
+
+#van {
+margin: 50px auto 115px auto;  
+}
+
+
+
+
+.package-list {
+  line-height: 2rem;
+  text-align: center;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 2rem;
+  line-height: 1.625;
+  letter-spacing: 1px;
+  text-shadow: 2px 1px 1px #000;
+  color: rgba(255, 255, 255, 0.2);
+}
+
+.file-format {
+  width: 50%;
+  padding: 20px;
+  text-align: center;
+  align-content: center;
+}
+
 .item-process:nth-child(2n+1) {
   padding-right: 30px;
 }
@@ -3920,6 +3993,7 @@ footer a {
 
 .footer-logo {
   margin-top: 10px;
+  opacity: 0.5;
 }
 
 /* ------------------------------------------------------------------- 
