@@ -2904,21 +2904,68 @@ html.no-csstransitions .home-content__main {
 margin: 50px auto 115px auto;  
 }
 
-
-
-
-.package-list {
-  line-height: 2rem;
-  text-align: center;
-  font-family: "Nunito Sans", sans-serif;
-  font-weight: 300;
+.package {
+  font-size: 34px;
+  font-family: bebas neue;
   font-style: italic;
-  font-size: 2rem;
-  line-height: 1.625;
-  letter-spacing: 1px;
-  text-shadow: 2px 1px 1px #000;
-  color: rgba(255, 255, 255, 0.2);
+  letter-spacing: 2px;
+  text-align: center;
 }
+
+th:nth-child(2) {
+  background: rgba(192, 192, 192, 0.496);
+}
+
+th:nth-child(3) {
+  background: #d3b1087c;
+  
+}
+
+th:nth-child(4) {
+  background: rgba(113, 113, 113, 0.505);}
+
+
+
+td {
+  text-align: center;
+}
+
+td:nth-child(2) {
+  background: rgba(192, 192, 192, 0.496);
+}
+td:nth-child(3) {
+  background: #d3b1087c;
+  border-collapse: collapse;
+  
+  
+}
+td:nth-child(4) {
+  background: rgba(113, 113, 113, 0.505);
+}
+
+th, td {
+  
+}
+
+table {
+  border: groove;
+  border-color:#27d0b786;
+
+}
+
+
+
+.package-title {
+  color:#27d0b8;
+  text-align: center;
+
+}
+
+
+.package-button {
+box-shadow: inset;
+}
+
 
 .file-format {
   width: 50%;
