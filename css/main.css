@@ -2905,12 +2905,36 @@ html.no-csstransitions .home-content__main {
 margin: 50px auto 115px auto;  
 }
 
+.price {
+  color: #27d0b8;
+  font-size: 26px;
+  font-family: bebas neue;
+}
+
+.dl-link {
+  display: block;
+  text-align: center;
+  font-size: 44px;
+ 
+}
+
 .package {
   font-size: 34px;
   font-family: bebas neue;
   font-style: italic;
   letter-spacing: 2px;
   text-align: center;
+}
+
+.download-link {
+  margin-top: 6rem;
+  text-align: center;
+}
+
+.download-img {
+  width: 300px;
+  z-index: 500;
+
 }
 
 th:nth-child(2) {
