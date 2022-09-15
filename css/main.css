@@ -1693,10 +1693,8 @@ body.menu-is-open {
 }
 
 .header-logo img {
-  width: 9rem;
+  width: 8rem;
   height: auto;
-  opacity: 0.7;
-
 }
 
 .logo {
@@ -1742,12 +1740,17 @@ body.menu-is-open {
 
 .col-full img {
   align-self: center;
-  width: 30%;
+  width: 70%;
   height: auto;
   border-radius: 1rem;
   display: block;
   margin: auto auto;
   margin-bottom: 4rem;
+}
+
+#quetra-girl {
+width: 40%;
+height: auto;
 }
 
 /* ------------------------------------------------------------------- 
@@ -3489,8 +3492,8 @@ box-shadow: inset;
  *
  * ------------------------------------------------------------------- */
 .s-clients {
-  padding-top: 16.2rem;
-  padding-bottom: 15rem;
+  padding-top: 2.2rem;
+  padding-bottom: 4.2rem;
   position: relative;
 }
 

@@ -1901,7 +1901,7 @@ Arrow buttons hit area
 .pswp__button--arrow--right:before {
   content: '';
   top: 0;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: #27d0b7a3;
   height: 30px;
   width: 32px;
   position: absolute;
