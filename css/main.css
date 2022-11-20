@@ -519,7 +519,9 @@ button,
 }
 
 .cta_button {
-  font-family: 'Poppins';
+  font-family: ethnocentric, sans-serif;
+  font-weight: 400;
+  font-style: normal;
   width: 320px;
   height: 50px;
   border: none;
@@ -527,7 +529,6 @@ button,
   color: #000;
   background: #27d0b8;
   text-transform: uppercase;
-  font-weight: 800;
   letter-spacing: 4px;
   cursor: pointer;
   position: relative;
@@ -1010,8 +1011,9 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
   display: inline-block;
-  font-family: poppins;
-  font-weight: 700;
+  font-family: ethnocentric, sans-serif;
+  font-weight: 400;
+  font-style: normal;
   font-size: 1.2rem;
   text-transform: uppercase;
   letter-spacing: .4rem;
@@ -1532,7 +1534,9 @@ body.menu-is-open {
 }
 
 .item-title {
-  font-family: "Bebas Neue", cursive;
+  font-family: ethnocentric,sans-serif;
+  font-weight: 700;
+  font-style: normal;
   letter-spacing: 0.5rem;
   font-size: 2.5rem;
   line-height: 1.5;
@@ -2305,10 +2309,11 @@ height: auto;
 
 .home-content h3 {
   margin-top: 4.2rem;
-  font-family: "bebas neue", sans-serif;
+  font-family: ethnocentric, sans-serif;
+  font-weight: 700;
+  font-style: italic;
   font-size: 3.8rem;
   line-height: 1.342;
-  font-style: italic;
   color: #fff;
   text-shadow: 1px 1px 1px #27d0b79c;
 }
@@ -4167,7 +4172,6 @@ footer a {
   opacity: 0.5;
   width: 80px;
   height: auto;
-  
 }
 
 /* ------------------------------------------------------------------- 
