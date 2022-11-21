@@ -60,6 +60,7 @@
  * ------------------------------------------------------------------- */
  
  @import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@1,800&family=Bebas+Neue&family=Inknut+Antiqua&family=Kanit:ital,wght@0,500;1,100&family=Lobster&family=Poppins:wght@100&family=Roboto:wght@300&family=Rubik+Glitch&family=Space+Mono&family=Water+Brush&display=swap');
+
  
  html {
   font-size: 10px;
@@ -92,6 +93,7 @@ body {
 /* ------------------------------------------------------------------- 
  * ## links
  * ------------------------------------------------------------------- */
+
 a {
   color:rgba(39, 208, 184, 1);
   -webkit-transition: all 0.3s ease-in-out;
@@ -199,6 +201,8 @@ h6, .h6 {
 .quote-header {
   text-align: center;
   color: white;
+  margin: 3rem;
+  padding: 4rem;
 }
 
 p img {
@@ -1833,7 +1837,7 @@ height: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
+  width: 80%;
   height: auto;
 }
 
@@ -3314,7 +3318,22 @@ box-shadow: inset;
 }
 
 
+/*---Wordpress section---*/
+
+.wordpress {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+
+}
+
+/*---Carousel section---*/
+
+
+
 /* ===================================================================
+
  * # works
  *
  * ------------------------------------------------------------------- */
@@ -4173,6 +4192,7 @@ footer a {
   width: 80px;
   height: auto;
 }
+
 
 /* ------------------------------------------------------------------- 
  * ## copyright
