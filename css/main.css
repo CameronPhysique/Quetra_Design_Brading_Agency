@@ -1818,6 +1818,35 @@ body.menu-is-open {
   margin: 4rem 0rem 0rem 2rem;
 }
 
+.seo-before {
+  float: left;
+}
+
+.seo-after {
+  float: right;
+}
+
+.care-para {
+  float: left;
+  height: auto;
+  width: 50%;
+  padding: 2rem;
+}
+
+.google-screen {
+  float: left;
+  margin-top: 3rem;
+  width: 40%;
+  height: auto;
+}
+
+#google-title {
+  font-size: 20px;
+  margin-top: 3rem;
+}
+
+
+
 .col-full img {
   align-self: center;
   width: 70%;
@@ -3610,6 +3639,12 @@ box-shadow: inset;
                        font-size: 18px;
                        width:80%;
       }
+  }
+
+  /*----------SEO----------*/
+
+  .seo h3 {
+    color:#fff;
   }
 
 /* ===================================================================
