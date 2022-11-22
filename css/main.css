@@ -1845,6 +1845,14 @@ body.menu-is-open {
   margin-top: 3rem;
 }
 
+.brand-bible {
+  float: left;
+  margin-top: 3rem;
+  width: 100%;
+  height: auto;
+
+}
+
 
 
 .col-full img {
@@ -3377,8 +3385,7 @@ box-shadow: inset;
 /*---Carousel section---*/
 .slider {
   position: relative;
-  
-  
+  padding: 10rem;
   width: 1160px;
   height: 100%;
   margin: 100px auto;
