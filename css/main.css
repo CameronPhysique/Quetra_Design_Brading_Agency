@@ -1841,6 +1841,14 @@ body.menu-is-open {
   height: auto;
 }
 
+.quetra-screen {
+  float: left;
+  margin-top: 3rem;
+  padding: 2rem;
+  width: 50%;
+  height: auto;
+}
+
 #google-title {
   font-size: 20px;
 }
