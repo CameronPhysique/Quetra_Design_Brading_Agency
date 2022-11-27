@@ -2135,6 +2135,13 @@ transform:scale(0);
 
 
 
+.text-small {
+  font-size: 1.2rem !important;
+}
+
+
+
+
 
 
 .col-full img {
@@ -2152,6 +2159,13 @@ width: 50%;
 height: auto;
 padding: 2rem;
 }
+
+#djts-mockup {
+  width: 40%;
+  height: auto;
+  padding: 2rem;
+  }
+
 
 .banner {
   display: block;
@@ -3649,8 +3663,6 @@ box-shadow: inset;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
-  border-radius: 2rem;
-
 }
 /*---Recent projects---*/
 .recent-projects {
