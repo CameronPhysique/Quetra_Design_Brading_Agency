@@ -2139,11 +2139,6 @@ transform:scale(0);
   font-size: 1.2rem !important;
 }
 
-
-
-
-
-
 .col-full img {
   align-self: center;
   width: 70%;
@@ -3951,6 +3946,9 @@ box-shadow: inset;
     color:#fff;
   }
 
+ 
+  
+
 /* ===================================================================
 
  * # works
@@ -4629,6 +4627,77 @@ box-shadow: inset;
 .contact-email a:hover,
 .contact-email a:focus {
   border-bottom: 3px solid #d0bf2b;
+}
+
+.contact-info{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card{
+  position: relative;
+  flex: 1;
+  max-width: 300px;
+  height: 340px;
+  margin: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon{
+  font-size: 32px;
+  color: #27d0b8;
+  transition: .3s linear;
+}
+
+.card:hover .icon{
+  transform: scale(4);
+  opacity: 0;
+}
+
+.card-content h3,
+.card-content span{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 16px;
+  opacity: 0;
+}
+
+.card-content h3{
+  top: 20px;
+  text-transform: uppercase;
+  color: #27d0b8;
+}
+
+.card-content span{
+  bottom: 20px;
+  color: #fff;
+  font-weight: 500;
+}
+
+.card:hover h3{
+  opacity: 1;
+  top: 6px;
+  transition: .3s linear .3s;
+}
+
+.card:hover span{
+  opacity: 1;
+  bottom: 6px;
+  transition: .3s linear .3s;
+}
+
+
+@media screen and (max-width:900px){
+  .card{
+      flex: 100%;
+      max-width: 500px;
+  }
 }
 
 /* ------------------------------------------------------------------- 
