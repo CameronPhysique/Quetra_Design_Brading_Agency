@@ -1773,7 +1773,7 @@ body.menu-is-open {
 }
 
 .header-logo img {
-  width: 8rem;
+  width: 6rem;
   height: auto;
 }
 
@@ -3167,7 +3167,7 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width:600px) {
   .home-content {
-    padding-top: 6rem;
+    
   }
 
   .home-content h1 {
