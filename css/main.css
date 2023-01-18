@@ -1833,6 +1833,15 @@ body.menu-is-open {
   padding: 2rem;
 }
 
+.google-para {
+  
+    float: right;
+    height: auto;
+    width: 50%;
+    padding: 2rem;
+  
+}
+
 .google-screen {
   float: left;
   margin-top: 5rem;
